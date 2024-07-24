@@ -1,7 +1,7 @@
 #include <QQmlApplicationEngine>
 #include <QIcon>
 #include <QUrl>
-#include <QWebEngine>
+#include <qtwebengineglobal.h>
 
 #ifdef USE_NATIVE_LOOK_AND_FEEL
 #	include <QApplication>
@@ -12,6 +12,9 @@
 
 int main(int argc, char *argv[])
 {
+    // Set up QWebEngine.
+    QtWebEngine::initialize();
+
 #ifdef USE_NATIVE_LOOK_AND_FEEL
     QApplication app(argc, argv);
 #else
@@ -22,9 +25,6 @@ int main(int argc, char *argv[])
     app.setApplicationVersion("0.0.1");
 
     QIcon::setThemeName("oxygen");
-
-    // Set up QWebEngine.
-    QWebEngine::initialize();
 
     // Set up QML.
     QQmlApplicationEngine engine;

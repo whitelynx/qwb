@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick webengine
+QT += qml quick webengine webenginewidgets
 
 SOURCES += main.cpp
 
