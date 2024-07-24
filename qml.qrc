@@ -1,8 +1,8 @@
 <!DOCTYPE RCC><RCC version="1.0">
   <qresource>
-    <file>qml/StatusBubble.qml</file>
-    <file>qml/Command.qml</file>
     <file>qml/Commands.qml</file>
+    <file>qml/Command.qml</file>
+    <file>qml/StatusBubble.qml</file>
     <file>qml/main.qml</file>
   </qresource>
 </RCC>
