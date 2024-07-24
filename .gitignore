@@ -3,5 +3,5 @@ Makefile
 *.o
 moc_predefs.h
 moc_*.cpp
-qrc_qml.cpp
+qrc_*.cpp
 .qmake.stash
