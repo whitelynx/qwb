@@ -1,6 +1,16 @@
 qwb
 ===
 
+---
+
+[![Moved to Codeberg](https://img.shields.io/badge/moved_to-Codeberg-%232185D0?logo=codeberg&logoColor=white)][codeberg project]
+
+**Notice: This project has [moved to Codeberg.org][codeberg project]. All further development will take place there.**
+
+[codeberg project]: https://codeberg.org/whitelynx/qwb
+
+---
+
 QtQuick Web Browser - A web browser using QML and Chromium.
 
 This project requires Qt 5 with QtQuick and QtWebEngine.
